@@ -1,43 +1,67 @@
-Quiz_app
+Quiz App
 
-A simple Java-based quiz application built to practice object-oriented programming concepts such as classes, services and question handling.
+A simple Java-based Quiz Application built to practice object-oriented programming concepts such as classes, services, and question handling.
 
-📋 Features
+📘 Overview
 
-Defines a Question class to represent each quiz item.
+This project demonstrates:
 
-Implements a QuestionService class to manage and deliver questions.
+Creating a Question model
 
-Contains a Main class to launch and run the quiz flow.
+Managing questions using a QuestionService
 
-Straightforward structure: easy to extend with more questions or features.
+Running the quiz logic from Main
 
-Written entirely in Java (100 %). 
-GitHub
-+1
+Basic console input/output
 
-🏁 How to run
+Clean separation of logic and data
 
-Clone the repository.
+✨ Features
 
-Compile the Java files in your favourite IDE or via javac.
+Add and store quiz questions
 
-Run the Main.java class to start the quiz.
+Display questions one-by-one
 
-🎯 Intended usage
+Take user input from console
 
-Use as a learning tool to understand basic Java service and model separation.
+Check answers and provide output
 
-Extend it by adding features: e.g., multiple-choice answers, score tracking, timed questions, UI layer.
+100% Java implementation
 
-Ideal for beginners as a stepping stone project.
+🚀 How to Run
+# Clone the repo
+git clone https://github.com/bhanuchandanisetti-lgtm/Quiz_app
 
-🔧 Possible improvements
+# Open in any Java IDE (IntelliJ, VS Code, Eclipse)
+# or compile manually:
+javac Main.java
+java Main
 
-Add persistence (file or database) so questions aren’t hard-coded.
+📂 Project Structure
+Quiz_app/
+│
+├── Question.java        # Model class
+├── QuestionService.java # Handles list of questions
+└── Main.java            # Runs the quiz
 
-Add more question types (true/false, multiple-choice).
+📈 Future Improvements
 
-Integrate a GUI or web UI layer.
+Add multiple-choice questions
 
-Track user performance and store results.
+Track score and percentage
+
+Load questions from a file or database
+
+Timer for each question
+
+GUI version using JavaFX or Swing
+
+🧑‍🏫 Purpose
+
+Great for practising:
+
+OOP basics
+
+Java class design
+
+Console-based application building
